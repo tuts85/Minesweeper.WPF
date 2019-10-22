@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minesweeper.WPF", "Minesweeper.WPF\Minesweeper.WPF.csproj", "{654BD352-2B99-42F9-8747-744C6F98FCE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMine", "TestMine\TestMine.csproj", "{12622312-EAD4-4051-B9BC-2A622CB90C2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{654BD352-2B99-42F9-8747-744C6F98FCE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654BD352-2B99-42F9-8747-744C6F98FCE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654BD352-2B99-42F9-8747-744C6F98FCE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654BD352-2B99-42F9-8747-744C6F98FCE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12622312-EAD4-4051-B9BC-2A622CB90C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12622312-EAD4-4051-B9BC-2A622CB90C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12622312-EAD4-4051-B9BC-2A622CB90C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12622312-EAD4-4051-B9BC-2A622CB90C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A83B7D88-2880-45F5-BEFC-6564388409D7}
+	EndGlobalSection
+EndGlobal

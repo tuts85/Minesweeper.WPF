@@ -1,0 +1,22 @@
+﻿<Window x:Class="Minesweeper.WPF.New_Game"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Minesweeper.WPF"
+        mc:Ignorable="d"
+        Title="Create a New Game" Height="240" Width="300" Background="LightGray">
+    <Grid Margin="0,0,0,7">
+
+        <RadioButton x:Name="beginnerrdbtn" FontSize="14" GroupName="newGame" Content="Beginner" HorizontalAlignment="Left" Margin="40,33,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name= "intermrdbtn" FontSize="14" GroupName="newGame" Content="Intermediate" HorizontalAlignment="Left" Margin="40,51,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="advancedrdbtn" FontSize="14" GroupName="newGame" Content="Advanced" HorizontalAlignment="Left" Margin="40,69,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="customrdbtn" FontSize="14" GroupName="newGame" Content="Custom (Rows x Columns)" HorizontalAlignment="Left" Margin="40,102,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="rowstxbx" HorizontalAlignment="Left" Height="23" Margin="127,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42"/>
+        <TextBox x:Name="colstxbx" HorizontalAlignment="Left" Height="23" Margin="177,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42"/>
+        <Button Content="OK" HorizontalAlignment="Left" Margin="141,169,0,0" VerticalAlignment="Top" Width="60" Height="25" Click="Button_Click_1"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="206,169,0,0" VerticalAlignment="Top" Width="60" Height="25" Click="Button_Click"/>
+        <CheckBox x:Name="challengechbx" FontSize="14" Content="Challenge Mode" HorizontalAlignment="Left" Margin="145,33,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
